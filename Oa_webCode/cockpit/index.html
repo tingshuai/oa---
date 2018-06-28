@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>cockpit</title>
+  </head>
+  <!-- <link href='./static/fullcalendar.print.css' rel='stylesheet' media='print' />
+  <link href='./static/fullcalendar.css' rel='stylesheet' />
+  <script src="./static/moment.js"></script> -->
+  <script src="./static/jquery-3.2.1.min.js"></script>
+  <!-- <script src='./static/fullcalendar.js'></script>
+  <script type="text/javascript" src="./static/zh-cn.js"></script> -->
+  <body>
+        <!-- 文档库 -->
+    <!-- http://192.168.0.103:8000 -->
+    <!-- http://192.168.0.116:8000/schedules -->
+    <!-- 日历 -->
+    <!-- http://61.153.187.231:8082/cas/ -->
+    <!-- 应用 -->
+    <!-- http://61.153.187.231:8088/bireportcentre/ -->
+    <!-- 首页 -->
+    <div id="app"  >
+      <!-- <app-center ports="http://61.153.187.231:8082/cas/" account="ptest"></app-center> -->
+      <!-- <App  ports="http://115.220.1.10:8000" tourl=""></App>
+       -->
+       <!-- 待办 -->
+       <backlog ports="http://115.220.1.10:8000" tourl="http://www.baidu.com"></backlog>
+       <!-- 文库 -->
+       <!-- <Document ports="http://115.220.1.10:8000" company-id="12577" user-id="127582"></Document> -->
+       <!-- 流程申请 -->
+       <!-- <Process ports="http://115.220.1.10:8000" tourl="http://www.baidu.com"></Process> -->
+       <!-- <App  ports="http://115.220.1.10:8000" ></App> -->
+    </div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>

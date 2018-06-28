@@ -1,0 +1,93 @@
+.processApplication .main{
+	flex: 1;
+	height: 700px;
+	overflow: auto;
+}
+.processApplication .main .title{
+	margin-top: 20px;
+	height: 50px;
+	line-height: 50px;
+	font-size:20px;
+	font-family:MicrosoftYaHei-Bold;
+	color:rgba(51,51,51,1);
+}
+.processApplication .main .my-column{
+	padding: 20px 0 20px 0;
+	padding-bottom: 0;
+}
+.processApplication .main .my-column .item{
+	width:320px;
+	height:140px;
+	/*box-shadow:2px 0px 16px rgba(0,0,0,0.11);*/
+	margin-right: 30px;
+	margin-bottom: 30px;
+	float: left;
+	position: relative;
+	display: flex;
+    align-items: center;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 0.5s;
+    border-radius: 3px;
+    background: #EEEEEE;
+}
+.processApplication .main .my-column .item:hover{
+	box-shadow:4px 0px 13px rgba(0,0,0,0.15) 
+}
+.processApplication .main .my-column .item img{
+	float: left;
+	width: 75px;
+	height: 75px;
+}
+.processApplication .main .my-column .item .item-content{
+	/*margin: 0 auto;*/
+	padding-left: 42px;
+}
+.processApplication .main .my-column .item .item-content div{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.processApplication .main .my-column .item .item-content div h2{
+	width: 150px;
+	font-size:18px;
+	height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family:MicrosoftYaHei-Bold;
+	color:rgba(51,51,51,1);
+	height: 30px;
+	line-height: 30px;
+	font-weight: 900;
+}
+.processApplication .main .my-column .item .item-content div p{
+	font-size:14px;
+	width: 150px;
+	height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family:MicrosoftYaHei;
+	color:rgba(153,153,153,1)
+}
+.processApplication .main .my-column .item span{
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	color: white;
+	background: #000;
+	display: inline-block;
+	padding: 0 10px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	opacity: .7;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.processApplication .main .my-column .item span i{
+	font-size: 12px;
+}

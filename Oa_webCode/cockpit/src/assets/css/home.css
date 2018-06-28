@@ -1,0 +1,141 @@
+
+/*首页样式*/
+.content .title{
+	height: 40px;
+	font-size: 20px;
+	border-bottom: 2px solid #DBD9D9;
+	color: #333333;
+	font-weight: 600;
+	line-height: 40px;
+}
+.content .subTitle{
+	border-bottom: 2px solid #EBEBEB;
+}
+.content .subTitle span{
+	width: 70px;
+	height: 30px;
+	color: #1980E3;
+	font-size: 14px;
+	border:1px solid #1980E3;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+.content .subTitle i{
+	font-size: 14px;
+	color: #999999;
+}
+.content .wrap{
+	flex: 1;
+	margin-top: 10px;
+	display: flex;
+}
+.content .wrap .nav{
+	position: fixed;
+	left: 0;
+	z-index: 99999;
+	top: 50%;
+	transform: translate(0,-50%);
+	background-color: #F4F4F4;
+}
+.content .wrap .nav ul li{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+	transition: all 1s;
+}
+.content .wrap .nav ul li a{
+	color: #000;
+	display: flex;
+	align-items: center;
+}
+.content .wrap .nav ul li a b{
+	font-weight: 300;
+	font-size: 12px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background:#7a6e6e;
+	color: white;
+}
+.content .wrap .nav ul li span{
+	transition: width .5s;
+	font-size: 18px;
+	/*padding: 0 10px;*/
+	position: absolute;
+	left: 100%;
+	white-space: nowrap;
+	width: 0px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	overflow: hidden;
+	color: #fff;
+	background:#7a6e6e;
+	border-radius: 0 3px 3px 0;
+}
+.content .wrap .nav ul li:hover span{
+	width: 120px;
+	background: #c81623;
+}
+.content .wrap .nav ul li:hover a b{
+	background: #c81623;
+}
+.content .wrap .main{
+	flex: 1;
+	height: 700px;
+	overflow: auto;
+	padding-left: 30px;
+}
+.content .wrap .main .my-column{
+	padding: 20px;
+	padding-bottom: 0;
+}
+.content .wrap .main .my-column .item{
+	width:200px;
+	height:120px; 
+	background:rgba(255,255,255,1);
+	/*box-shadow:2px 0px 16px rgba(0,0,0,0.11);*/
+	margin-left: 30px;
+	float: left;
+	position: relative;
+	margin-bottom: 30px;
+	display: flex;
+    align-items: center;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 0.5s;
+	text-align: center;
+    border-radius: 3px;
+}
+.content .wrap .main .my-column .item:hover{
+	box-shadow:0px 0px 16px #B3B3B3;
+}
+.content .wrap .main .my-column .item img{
+	width: 75px;
+	height: 75px;
+}
+.content .wrap .main .my-column .item .item-content{
+	margin: 0 auto;
+}
+.content .wrap .main .my-column .item span{
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	color: white;
+	background: #000;
+	display: inline-block;
+	padding: 0 10px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	opacity: .7;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.content .wrap .main .my-column .item span i{
+	font-size: 12px;
+}

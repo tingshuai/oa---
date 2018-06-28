@@ -1,0 +1,70 @@
+
+blockquote,body,button,center,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,td,textarea,th,tr,ul{
+    padding:0;margin:0
+}
+table{
+    border-collapse:collapse;border-spacing:0
+}
+fieldset,img{
+    border:0
+}
+button,input,select,textarea{
+    font-size:12px
+}
+img,input,select{
+    vertical-align:middle
+}
+li,ul{
+    list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:100%
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.no-scroll::-webkit-scrollbar {
+    display:none
+}
+.el-dialog .el-dialog__header{
+	padding: 0px;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 40px;
+	background: #303740;
+	border-radius: 5px 5px 0 0;
+	position: relative;
+}
+.el-dialog {
+	border-radius: 5px 5px 0 0;
+}
+.el-dialog .el-dialog__header span{
+	color:white;
+}
+.el-dialog .el-dialog__header .el-dialog__title{
+	font-size: 16px;
+}
+.el-dialog .el-dialog__header .el-dialog__headerbtn{
+	top: 50%;   
+	display: inline-block;
+	margin-top: -9px;
+}
+.iframe-box.poc-toast .el-dialog__body{
+	padding-top: 0!important;
+	height: 100%;
+	overflow: auto;
+}
+.xmlBox xmp{
+	word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
